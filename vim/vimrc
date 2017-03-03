@@ -1,6 +1,7 @@
 " My vim settings file
 " Author: Mskadu <mskadu@gmail.com>
 " Last updated: 10/09/2015
+"
 
 " Settings {{{
 set secure nocompatible
@@ -19,7 +20,6 @@ else
 endif
 " }}}
 
-" }}}
 
 " General Settings {{{
 "
@@ -108,11 +108,10 @@ if has("autocmd")
   autocmd BufRead,BufNewFile *.java set makeprg=javac\ %
   "autocmd BufRead BufNewFile *.java set makeprg=ant\ -emacs
 
-  " Mark Mycroft Source as XML files (17/2/2005)
-  autocmd BufRead,BufNewFile *.src set filetype=xml
-
   " Reload settings file everytime its written 
+  " Note: replace $VIM/.vimrc with wherever your vimrc lives
   autocmd! bufwritepost _vimrc source $VIM/_vimrc
+  autocmd! bufwritepost .vimrc source $VIM/.vimrc
 
   " Shameless stolen from vimrc_example. I like this!
 
@@ -197,4 +196,3 @@ set cursorline
 ":hi CursorLine term=none cterm=none ctermbg=3
 ":autocmd InsertLeave * hi CursorLine term=none cterm=none ctermbg=3
 ":autocmd InsertEnter * hi CursorLine term=none cterm=none ctermbg=4
-

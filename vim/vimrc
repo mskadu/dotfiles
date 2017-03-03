@@ -3,7 +3,11 @@
 " Last updated: 03/03/2017
 "
 
-set nocompatible                "chose not to be compatible with legacy vi
+call pathogen#infect()       
+call pathogen#helptags()
+
+
+set nocompatible                " chose not to be compatible with legacy vi
 if version >= 600
   syntax enable
 

@@ -7,10 +7,12 @@ Approach credits: http://vimcasts.org/episodes/synchronizing-plugins-with-git-su
 
     cd %userprofile%
     git clone git@github.com:mskadu/dotfiles.git .settings
-    mklink _vimrc .\.settings\vim\vimrc
+    mklink /J .vim .settings\vim
+    mklink .vimrc .\.vim\vimrc
 
 *Installation on UNIX/Linux/Mac*
 
     git clone git@github.com:mskadu/dotfiles.git .settings
-    ln -s ~/.vimrc ~/.settings/vim/vimrc
+    ln -s ~/.vim ~/.settings/vim
+    ln -s ~/.vimrc ~/.vim/vimrc
 

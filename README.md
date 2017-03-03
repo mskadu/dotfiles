@@ -13,3 +13,4 @@ Approach credits: http://vimcasts.org/episodes/synchronizing-plugins-with-git-su
 
     git clone git@github.com:mskadu/dotfiles.git .settings
     ln -s ~/.vimrc ~/.settings/vim/vimrc
+

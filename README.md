@@ -21,4 +21,4 @@ Command prompt
     cmd /k %userprofile%\.settings\windows-cmd\command-prompt-settings.cmd
 
 ### Credits 
-    Vim approach: http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+    * [Vimcasts.org - Synch plugins with GIT Submodules and Pathogen](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/)

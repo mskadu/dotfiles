@@ -15,8 +15,7 @@ My settings files - common across Windows AND Linux
     ln -s ~/.vimrc ~/.vim/vimrc
 
 ### Usage
-*On Windows*
-Command prompt
+Windows Command prompt
 
     cmd /k %userprofile%\.settings\windows-cmd\command-prompt-settings.cmd
 

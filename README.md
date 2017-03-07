@@ -1,7 +1,7 @@
 # dotfiles
 My settings files - common across Windows AND Linux
 
-# Installation
+### Installation
 *On Windows*
 
     cd %userprofile%
@@ -14,9 +14,11 @@ My settings files - common across Windows AND Linux
     ln -s ~/.vim ~/.settings/vim
     ln -s ~/.vimrc ~/.vim/vimrc
 
-# Usage
+### Usage
 *On Windows*
-    For command prompt, Run: cmd /k %userprofile%\.settings\windows-cmd\command-prompt-settings.cmd
+Command prompt
 
-## Credits 
+    cmd /k %userprofile%\.settings\windows-cmd\command-prompt-settings.cmd
+
+### Credits 
     Vim approach: http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/

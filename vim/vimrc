@@ -3,6 +3,7 @@
 " Last updated: 03/03/2017
 "
 
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()       
 call pathogen#helptags()
 

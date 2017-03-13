@@ -3,10 +3,7 @@
 " Last updated: 03/03/2017
 "
 
-" Load pathogen only for Windows
-if has("win32")
-  runtime bundle/vim-pathogen/autoload/pathogen.vim
-endif
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()       
 call pathogen#helptags()
 

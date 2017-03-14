@@ -11,8 +11,8 @@ My settings files - common across Windows AND Linux
 *On UNIX/Linux/Mac*
 
     git clone --recursive git@github.com:mskadu/dotfiles.git .settings
-    ln -s ~/.vim ~/.settings/vim
-    ln -s ~/.vimrc ~/.vim/vimrc
+    ln -s ~/.settings/vim ~/.vim
+    ln -s ~/.vim/vimrc ~/.vimrc
 
 ### Usage
 Windows Command prompt

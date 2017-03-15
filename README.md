@@ -14,6 +14,10 @@ My settings files - common across Windows AND Linux
     ln -s ~/.settings/vim ~/.vim
     ln -s ~/.vim/vimrc ~/.vimrc
 
+### Receiving updates
+
+    git pull --recurse-submodules
+
 ### Usage
 Windows Command prompt
 

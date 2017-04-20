@@ -84,12 +84,7 @@ if has("win32")
 endif
 
 " Reload settings file everytime its written 
-" Note: replace $VIM/.vimrc with wherever your vimrc lives
-autocmd! bufwritepost _vimrc source $VIM/_vimrc         
-autocmd! bufwritepost .vimrc source $VIM/.vimrc
-
-"autocmd BufRead,BufNewFile *.java set makeprg=javac\ %
-"autocmd BufRead BufNewFile *.java set makeprg=ant\ -emacs
+autocmd! bufwritepost _vimrc,.vimrc,vimrc source %
 
 " From vimrc_example. I like this!
 

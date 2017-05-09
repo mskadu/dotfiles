@@ -13,6 +13,8 @@ My settings files - common across Windows AND Linux
     git clone --recursive git@github.com:mskadu/dotfiles.git .settings
     ln -s ~/.settings/vim ~/.vim
     ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.settings/bash/bash_aliases ~/.bash_aliases
+    ln -s ~/.settings/bash/bashrc ~/.bashrc
 
 ### Receiving updates
 

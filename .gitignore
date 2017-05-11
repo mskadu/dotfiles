@@ -1,2 +1,4 @@
 .netrwhist
 *.swp
+*bash_history
+*bash_logout
